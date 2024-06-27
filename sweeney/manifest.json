@@ -2,7 +2,7 @@
   "name": "Sweeney",
   "short_name": "Sweeney",
   "description": "App description",
-  "start_url": "/",
+  "start_url": "https://sweeneyltd.github.io/sweeney/sweeney/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#000000",
