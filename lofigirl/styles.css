@@ -361,7 +361,7 @@ $viewer-distance: 500px;
         font-family: cursive;
         text-decoration: none;
         color: white;
-        background-color: #00000081;
+        background-color: transparent;
         border-radius: 5px;
         transition: background-color 0.3s;
     
