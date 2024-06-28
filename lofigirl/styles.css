@@ -367,6 +367,11 @@ $viewer-distance: 500px;
     
     }
 
+	h1 {
+		        background-color: transparent;
+
+	}
+
     h3  {
       display: block;
         width: 90%;
