@@ -2,7 +2,7 @@
   "name": "Monday Morning Podcast",
   "short_name": "MMPodcast",
   "description": "Bill Burr's Monday Morning Podcast",
-  "start_url": "https://sweeneyltd.github.io/sweeney/legionofmen/index.html",
+  "start_url": "https://sweeneyltd.github.io/sweeney/burr/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#000000",
