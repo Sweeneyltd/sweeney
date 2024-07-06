@@ -427,7 +427,7 @@ $viewer-distance: 500px;
     }
     .link:hover {
         background-color: #0d0000ce;
-        box-shadow: 1px 4px 8px 4px #9a00002c;
+        box-shadow: 1px 4px 8px 4px #f295008b;
     }
 
     
@@ -450,8 +450,8 @@ $viewer-distance: 500px;
       transition: background-color 0.1s;
   }
   .donatelink:hover {
-      background-color: #000700ce;
-      box-shadow: 1px 4px 8px 4px #9a00002c;
+      background-color: #000000dc;
+      box-shadow: 1px 4px 8px 4px #f094002c;
   }
 
 
