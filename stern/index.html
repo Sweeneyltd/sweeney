@@ -70,6 +70,8 @@
 
     <my-app appTitle="my app"></my-app>
 
+	  <button id="installButton">Install App</button>
+
 
     <div id="div1" class="toggle-div"><div class="toggle-shade">
       <div style="
@@ -973,6 +975,57 @@ function copyToClipboard(text) {
   });
 </script>
 
+<script>
+  let deferredPrompt;
+
+  // Listen for the beforeinstallprompt event
+  window.addEventListener('beforeinstallprompt', (e) => {
+    // Prevent the mini-infobar from appearing on mobile
+    e.preventDefault();
+    // Stash the event so it can be triggered later.
+    deferredPrompt = e;
+  });
+
+  function showInAppInstallPromotion() {
+    // Check if deferredPrompt is defined
+    if (!deferredPrompt) {
+      console.error('Deferred prompt is not defined');
+      return;
+    }
+
+    // Get the install button element
+    const installButton = document.getElementById('installButton');
+    
+    // Check if the install button element exists
+    if (!installButton) {
+      console.error('Install button not found');
+      return;
+    }
+
+    // Display the install button
+    installButton.style.display = 'block';
+    
+    // Add a click event listener to the install button
+    installButton.addEventListener('click', () => {
+      // Hide the install button when clicked
+      installButton.style.display = 'none';
+
+      // Show the install prompt
+      deferredPrompt.prompt();
+
+      // Handle the user's choice
+      deferredPrompt.userChoice.then((choiceResult) => {
+        if (choiceResult.outcome === 'accepted') {
+          console.log('User accepted the install prompt');
+        } else {
+          console.log('User dismissed the install prompt');
+        }
+        // Clear the deferredPrompt variable
+        deferredPrompt = null;
+      });
+    });
+  }
+</script>
 
 <script>
   let currentIndex = 0;
