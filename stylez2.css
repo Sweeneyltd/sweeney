@@ -3,7 +3,7 @@
 
 body {
   margin: 0;
-  background-image: url("imgs/bbbg.png");
+  background-image: url("bbbg2.png");
   position: relative;
   background-size: contain;
   background-repeat: repeat;
@@ -42,7 +42,7 @@ body {
 
 @keyframes slideIn {
   0% {
-      left: -100%;
+      left: -70%;
   }
   100% {
       left: 0;
@@ -863,7 +863,7 @@ color: #878787;
   border: var(--clr-neon) 0.125em solid;
   padding: 0.25em 1em;
   margin: 0;
-  margin-top: 0px;
+  margin-top: 60px;
   border-radius: 0.25em;
   margin-bottom: 72px;
   text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
