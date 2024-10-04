@@ -21,7 +21,7 @@ body {
 
 
 .bg {
-  background-image: url(../userimgs/July.png);
+  background-image: url(../userimgs/marcus.png);
       background-size: cover;
       animation: panYaxis s infinite;
       background-position: center;
@@ -97,7 +97,7 @@ z-index: 11000;
   animation: fadeIn 1s forwards;
   z-index: 11000;
   text-align: center;
-  background-image: url(../userimgs/July.png);
+  background-image: url(../userimgs/marcus.png);
   background-position: center;
   background-size: cover;
   justify-content: center;
@@ -284,7 +284,7 @@ to {opacity: 1}
   animation: fadeIn 1s forwards;
   z-index: 11000;
   text-align: center;
-  background-image: url(../userimgs/July.png);
+  background-image: url(../userimgs/marcus.png);
   background-position: center;
   background-size: cover;
   justify-content: center;
@@ -301,7 +301,7 @@ to {opacity: 1}
   animation: fadeIn 1s forwards;
   z-index: 11000;
   text-align: center;
-  background-image: url(../userimgs/July.png);
+  background-image: url(../userimgs/marcus.png);
   background-position: center;
   background-size: cover;
   justify-content: center;
@@ -319,7 +319,7 @@ to {opacity: 1}
       animation: fadeIn 1s forwards;
       z-index: 10000;
       text-align: center;
-      background-image: url(../userimgs/July.png);
+      background-image: url(../userimgs/marcus.png);
       background-position: center;
       background-size: cover;
       justify-content: center;
@@ -333,7 +333,7 @@ to {opacity: 1}
       flex-direction: column;
       background-color: rgb(21, 21, 21);
       align-items: center;
-      background-image: url(../userimgs/July.png);
+      background-image: url(../userimgs/marcus.png);
       background-position: center;
       background-size: cover;
       justify-content: center;
